@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Open-sans;
+    src: url(Fonts/OpenSans-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open-sans;
+    font-weight: 550;
+}
+
+body {
+    background-color: rgb(34, 37, 41);
+}
+
+.Header {
+    background-color: rgb(34, 37, 41);
+}
+
+.ProfileRight {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ProfileMain {
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileDivider{
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 1.5px;
+    border-radius: 5px;
+    user-select: none;
+}
+.ProfileUserName {
+    margin-top: 3px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ProfileuserTag {
+    font-size: 20px;
+    margin-top: 6px;
+    color: rgb(213, 213, 213);
+}
+
+.ProfileAbout {
+    margin-top: 8px;
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+}
+.ProfilePicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ProfilePicture h1{
+    margin-top: 15px;
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+}
+
+.ProfilePicture img{
+    padding-top: 10px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    user-select: none;
+}
+
+
+
+.ContactsMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin: 0px;
+}
+
+.ContactIcons img{
+    width: 50px;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.ContactIcons img:hover{
+    width: 60px;
+    opacity: 1;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: rgb(34, 37, 41);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(108, 108, 108);
+}
+
+
+@media (max-width: 600px) {
+  .ProfileMain {
+    padding-top: 20vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+  }
+
+  .ProfileDivider {
+    width: 250px;
+    height: 2px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ProfileUserName {
+    font-size: 25px;
+    }
+    .ProfileAbout {
+    margin-top: 8px;
+    font-size: 16px;
+    }
+    .ProfileuserTag {
+    font-size: 15px;
+    color: rgb(213, 213, 213);
+    }
+}
+
+@media (max-width: 700px) {
+  .ProfileRight h1 br{
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .ProfileRight h1 br{
+    display: none;
+  }
+}
+
