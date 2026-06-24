@@ -105,6 +105,7 @@ body {
 
 footer {
     background-color: rgb(34, 37, 41);
+    margin-bottom: 5vh;
 }
 
 footer div {
@@ -117,7 +118,7 @@ footer div {
 
 @media (max-width: 600px) {
   .ProfileMain {
-    padding-top: 20vh;
+    padding-top: 18vh;
     flex-direction: column;
     padding-bottom: 10vh;
   }
@@ -128,14 +129,17 @@ footer div {
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: rgb(165, 165, 165);
   }
 
   .ProfileUserName {
-    font-size: 25px;
+    font-size: 23px;
+    margin-right:10px;
     }
     .ProfileAbout {
     margin-top: 8px;
     font-size: 16px;
+    margin-right:20px;
     }
     .ProfileuserTag {
     font-size: 15px;
