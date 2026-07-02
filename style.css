@@ -55,7 +55,7 @@ body {
 
 .ProfileAbout {
     margin-top: 8px;
-    color: rgb(190, 190, 190);
+    color: rgb(139, 138, 138);
     font-size: 18px;
 }
 .ProfilePicture {
@@ -134,6 +134,39 @@ footer div {
     .ProfileuserTag {
     font-size: 15px;
     color: rgb(213, 213, 213);
+    }
+}
+
+@media (max-width: 400px) {
+  .ProfileRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+  }
+  .ProfileUserName {
+    font-size: 19px;
+    margin-left: 25px;
+    }
+
+    .ProfileAbout {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    
+    }
+
+    .ProfileuserTag {
+    margin:0;
+    padding: 0;
     }
 }
 
