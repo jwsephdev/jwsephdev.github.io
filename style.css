@@ -58,6 +58,10 @@ body {
     color: rgb(139, 138, 138);
     font-size: 18px;
 }
+.ProfileAbout span {
+       color: rgb(230, 230, 230);
+    }
+
 .ProfilePicture {
     display: flex;
     flex-direction: column;
@@ -164,6 +168,7 @@ footer div {
     
     }
 
+    
     .ProfileuserTag {
     margin:0;
     padding: 0;
