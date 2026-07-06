@@ -58,9 +58,10 @@ body {
     color: rgb(139, 138, 138);
     font-size: 18px;
 }
+
 .ProfileAbout span {
-       color: rgb(230, 230, 230);
-    }
+    color: rgb(192, 192, 192);
+}
 
 .ProfilePicture {
     display: flex;
