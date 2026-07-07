@@ -3,6 +3,12 @@
     src: url(Fonts/OpenSans-Regular.ttf)
 }
 
+:root {
+    --font-normal-color: rgb(109, 109, 109);
+    --background-web-color: rgb(34, 37, 41);
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +17,15 @@
 }
 
 body {
-    background-color: rgb(34, 37, 41);
+    background-color: var(--background-web-color);
 }
 
 .Header {
-    background-color: rgb(34, 37, 41);
+    background-color: var(--background-web-color);
 }
+
+
+/* Profile */
 
 .ProfileRight {
     padding-left: 50px;
@@ -24,6 +33,7 @@ body {
     flex-direction: column;
     
 }
+
 .ProfileMain {
     padding-top: 30vh;
     padding-bottom: 15vh;
@@ -40,6 +50,7 @@ body {
     border-radius: 5px;
     user-select: none;
 }
+
 .ProfileUserName {
     margin-top: 3px;
     color: white;
@@ -50,17 +61,17 @@ body {
 .ProfileuserTag {
     font-size: 20px;
     margin-top: 6px;
-    color: rgb(213, 213, 213);
+    color: var(--font-normal-color);
 }
 
 .ProfileAbout {
     margin-top: 8px;
-    color: rgb(139, 138, 138);
+    color: var(--font-normal-color);
     font-size: 18px;
 }
 
 .ProfileAbout span {
-    color: rgb(192, 192, 192);
+    color: rgb(215, 215, 215);
 }
 
 .ProfilePicture {
@@ -71,7 +82,7 @@ body {
 }
 .ProfilePicture h1{
     margin-top: 15px;
-    color: rgb(192, 192, 192);
+    color: var(--font-normal-color);
     font-size: 20px;
 }
 
@@ -83,6 +94,8 @@ body {
     border: none;
     user-select: none;
 }
+
+/* Contact Icons*/
 
 
 .ContactsMain {
@@ -98,8 +111,9 @@ body {
     opacity: 0.3;
 }
 
+
 footer {
-    background-color: rgb(34, 37, 41);
+    background-color: var(--background-web-color);
     margin-top: 20vh;
     margin-bottom: 1vh;
 }
@@ -110,6 +124,7 @@ footer div {
     align-items: center;
     color: rgb(108, 108, 108);
 }
+
 
 @media (max-width: 600px) {
   .ProfileMain {
