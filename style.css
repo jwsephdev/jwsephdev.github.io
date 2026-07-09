@@ -59,9 +59,10 @@ body {
 }
 
 .ProfileuserTag {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 6px;
-    color: var(--font-normal-color);
+    color: rgb(208, 208, 208);
+    font-weight: 600;
 }
 
 .ProfileAbout {
